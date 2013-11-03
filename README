@@ -1,0 +1,13 @@
+Paranoid Chrome
+Martin Habovštiak <martin dot habovstiak at gmail dot com>
+
+The aim of this software is to launch Google Chrome/Chromium Browser with increased privacy settings.
+It strips away all environment variables (except DISPLAY), makes temporary home directory in RAM disk, choses random user agent string, disables dangerous features of browser...
+It also uses Tor (or other proxy servers).
+
+Many things can be set up with command line arguments. For now, there is no help output. Look at code.
+
+Script is released under the terms of MIT license.
+
+WARNING: I did my best to make it good script, but I don't guarantee it to be safe! Use at your own risk!
+Any improvement suggestions are welcome!
